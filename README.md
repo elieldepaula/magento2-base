@@ -43,10 +43,10 @@ bin/magento setup:install \
 --db-name=magento2 \
 --db-user=root \
 --db-password=tiger \
---admin-firstname=Eliel \
---admin-lastname=dePaula \
---admin-email=elieldepaula@gmail.com \
---admin-user=elieldepaula \
+--admin-firstname=John \
+--admin-lastname=Doe \
+--admin-email=admin@admin \
+--admin-user=admin \
 --admin-password=123mudar \
 --language=pt_BR \
 --currency=BRL \
@@ -59,9 +59,11 @@ bin/magento setup:install \
 
 ## Dicas
 
-Instalação por linha de comando
+Habilitar o modo desenvolvedor:
 
-
+```shell script
+bin/magento deploy:mode:set developer
+```
 
 Desabildar a autenticação de 2 fatores:
 ```shell script
