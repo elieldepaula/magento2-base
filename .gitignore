@@ -1,0 +1,14 @@
+/data
+/.buildpath
+/.cache
+/.metadata
+/.project
+/.settings
+/.vscode
+atlassian*
+/nbproject
+/.idea
+/.gitattributes
+www/*
+!www/.htaccess
+.DS_Store
