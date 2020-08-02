@@ -8,7 +8,7 @@ Utilize este repositorio para iniciar um projeto Magento 2.4
 
 ```cp sample.env .env```
 
-3- Descompacte a versão do magento desejada dentro da pasta www, de modo que o index.php fique na raiz: ```www/index.php```
+3- Faça o download e descompacte a versão do magento desejada dentro da pasta www, de modo que o index.php fique na raiz: ```www/index.php```
 
 4- Adicione a linha ```127.0.0.1 magento2.local``` em ```/etc/hosts```
 
