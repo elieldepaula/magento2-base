@@ -39,6 +39,7 @@ services:
       - "${HOST_MACHINE_REDIS_PORT}:6379"
   
   elasticsearch:
+    container_name: 'magento2-elasticsearch'
     image: elasticsearch:6.8.4
     ulimits:
       nofile:
