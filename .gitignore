@@ -12,3 +12,4 @@ atlassian*
 www/*
 !www/.htaccess
 .DS_Store
+logs/apache2/*.log
